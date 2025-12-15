@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "biome check",
-    "format": "biome format --write",
-    "pages:build": "npx @cloudflare/next-on-pages"
+    "format": "biome format --write"
   },
   "dependencies": {
     "next": "16.0.10",
@@ -17,7 +16,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.0",
-    "@cloudflare/next-on-pages": "^1.13.16",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
